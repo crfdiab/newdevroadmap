@@ -8,9 +8,12 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "AriaDocs - Template",
-  metadataBase: new URL("https://ariadocs.vercel.app/"),
+  metadataBase: new URL("https://newdevroadmap-a4uk--3000--216f7361.local-credentialless.webcontainer.io/"),
   description:
     "This comprehensive documentation template, crafted with Next.js and available as open-source, delivers a sleek and responsive design, tailored to meet all your project documentation requirements.",
+  alternates: {
+    canonical: '/',
+  },
 };
 
 export default function RootLayout({
