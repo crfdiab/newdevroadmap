@@ -6,6 +6,9 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "AriaDocs - Blog",
+  alternates: {
+    canonical: '/blog',
+  },
 };
 
 export default async function BlogIndexPage() {
